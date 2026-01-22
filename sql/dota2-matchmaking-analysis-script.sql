@@ -332,9 +332,9 @@ GROUP BY skill_tier;
 -- observation window, NOT long-term churn or retention.
 
 
--- ------------------------------------------------------------
--- Player event stream with next match timestamp
--- ------------------------------------------------------------
+-- ----------------------------------------------------------------------------------------------------
+-- Player event stream with next match timestamp -  THIS CTE IS USED FOR ALL 3 QUERIES OF THIS SECTION
+-- ----------------------------------------------------------------------------------------------------
 
 WITH player_events AS (
     SELECT
